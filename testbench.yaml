@@ -1,2 +1,2 @@
 providers:
-  - VendorName\Skeleton\SkeletonServiceProvider
+  - Ajoy39\ArtisansDomain\ArtisansDomainServiceProvider

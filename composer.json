@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "ajoy39/artisans-domain",
+    "description": "A set of artisan commands to generate domains for your laravel app",
     "keywords": [
-        ":vendor_name",
+        "ajoy39",
         "laravel",
-        "package_slug"
+        "artisans-domain"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/ajoy39/artisans-domain",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alec Joy",
+            "email": "alec@alecjoy.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Ajoy39\\ArtisansDomain\\": "src",
+            "Ajoy39\\ArtisansDomain\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ajoy39\\ArtisansDomain\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ajoy39\\ArtisansDomain\\ArtisansDomainServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "ArtisansDomain": "Ajoy39\\ArtisansDomain\\ArtisansDomainFacade"
             }
         }
     },
