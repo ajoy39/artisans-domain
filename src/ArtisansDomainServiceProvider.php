@@ -2,9 +2,9 @@
 
 namespace Ajoy39\ArtisansDomain;
 
+use Ajoy39\ArtisansDomain\Commands\ArtisansDomainCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ajoy39\ArtisansDomain\Commands\ArtisansDomainCommand;
 
 class ArtisansDomainServiceProvider extends PackageServiceProvider
 {

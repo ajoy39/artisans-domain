@@ -2,9 +2,9 @@
 
 namespace Ajoy39\ArtisansDomain\Tests;
 
+use Ajoy39\ArtisansDomain\ArtisansDomainServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ajoy39\ArtisansDomain\ArtisansDomainServiceProvider;
 
 class TestCase extends Orchestra
 {
